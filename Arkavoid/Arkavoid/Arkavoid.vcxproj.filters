@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{b280d08c-9e04-4287-a51d-c5b7a0fbde10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{442f8873-c7ce-4725-9760-d667622403e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Barra">
+      <UniqueIdentifier>{d0610802-7ab1-4684-8c02-aba618e46f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Brick">
+      <UniqueIdentifier>{cfb5369d-8efc-460c-87e1-660fc84dd228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bola">
+      <UniqueIdentifier>{3f84a57e-f17d-40cd-b219-318f59fb22dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PowerUp">
+      <UniqueIdentifier>{babb203f-6a80-4606-9b87-3bcb7c218fe5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\MainState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\BaseGameEntity.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EntityManager.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Main.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\BolaEntity.cpp">
+      <Filter>Source Files\Bola</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\BolaState.cpp">
+      <Filter>Source Files\Bola</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\BarraEntity.cpp">
+      <Filter>Source Files\Barra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\BarraState.cpp">
+      <Filter>Source Files\Barra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\BrickEntity.cpp">
+      <Filter>Source Files\Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\BrickState.cpp">
+      <Filter>Source Files\Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PowerUpEntity.cpp">
+      <Filter>Source Files\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\soundclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\MainState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BaseGameEntity.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EntityManager.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\State.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\StateMachine.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BarraEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BarraState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BolaEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BolaState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Main.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BrickEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BrickState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PowerUpEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\StateEvaluation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soundclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
